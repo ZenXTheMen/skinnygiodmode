@@ -1,0 +1,6 @@
+game:GetService("StarterPlayer").StarterCharacterScripts["CheckingKOED                                                                   ."]:Destroy()
+        for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+            if v.ClassName == 'Script' then
+                v:Destroy()
+            end
+            end
